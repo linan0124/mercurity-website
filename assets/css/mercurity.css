@@ -1,0 +1,260 @@
+/* DaoTrust.css */
+/*  */
+#hero-section{
+    width: 100%;
+    height: 650px;
+    background: url(../../assets/img/images/bannerbg.png) no-repeat center;
+	background-size: cover;
+}
+#header{
+    background:rgba(0,0,0,0.3);
+}
+/* product */
+.productGlable{
+    width: 419px;
+    height: 400px;
+    /* margin-left: 80px; */
+}
+.productTitle{
+    color: #364FDA;
+    font-size: 30px;
+}
+.productTxt{
+    font-size: 20px;
+    color: #344857;
+}
+.productPart{
+    width: 492px;
+    height: 462px;
+}
+.h6{
+    color: #202A43;
+    font-size: 26px;
+    font-weight: 500;
+}
+.serviceIcon{
+    width: 24px;
+    height: 24px;
+    background: url(../svg/sections/circle.png) no-repeat;
+    background-size: cover;
+    margin-top: 9px;
+}
+/* strengths */
+#advantage-section{
+    width: 100%;
+    height: 890px;
+    background: url(../../assets/svg/sections/strengthbg.png) no-repeat center;
+	background-size: cover;
+}
+.advantageTitle{
+    color: #ffffff;
+    font-size: 30px;
+}
+.advantageTxt{
+    font-size: 20px;
+    color: #ffffff;
+}
+.traditionalIcon{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/tranditionalImg.png) no-repeat;
+    background-size: cover;
+}
+.traditionalTitle{
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+}
+.traditionalTxt{
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+}
+.regulatoryImg{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/regulatoryImg.png) no-repeat;
+    background-size: cover;
+}
+.regularImg{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/regularImg.png) no-repeat;
+    background-size: cover;
+}
+.smartImg{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/smartImg.png) no-repeat;
+    background-size: cover;
+}
+.reatimeImg{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/realtimeImg.png) no-repeat;
+    background-size: cover;
+}
+.auditImg{
+    display: block;
+    width: 74px;
+    height: 74px;
+    background: url(../../assets/svg/sections/flashImg.png) no-repeat;
+    background-size: cover;
+}
+/* problem */
+#problem-section{
+    width: 100%;
+    height: 648px;
+    background: #ffffff;
+    padding-top: 90px !important;
+}
+
+.problemTitle{
+    color: #151ECD;
+    font-size: 30px;
+}
+.problemTxt{
+    font-size: 20px;
+    color: #202A43;
+}
+.oneIcon{
+    display: block;
+    width: 41px;
+    height: 38px;
+    background: url(../../assets/svg/sections/one.png) no-repeat;
+    background-size: cover;
+}
+.twoIcon{
+    display: block;
+    width: 43px;
+    height: 39px;
+    background: url(../../assets/svg/sections/two.png) no-repeat;
+    background-size: cover;
+}
+.threeIcon{
+    display: block;
+    width: 44px;
+    height: 39px;
+    background: url(../../assets/svg/sections/three.png) no-repeat;
+    background-size: cover;
+}
+.solutionTitle{
+    font-size:16px;
+    font-weight:500;
+    color:#202A43;
+    line-height:20px;
+    text-align: left;
+}
+.solutionTxt{
+    font-size:12px;
+    font-family:Campton-LightDEMO;
+    font-weight:normal;
+    color:#999999;
+    line-height:14px;
+    text-align: left;
+    line-height: 20px;
+}
+.frontImg{
+    width: 31px;
+    height: 20px;
+}
+.endImg{
+    width: 32px;
+    height: 20px;
+}
+.problemIntro{
+    font-size: 14px;
+    color: #999999;
+    line-height: 17px;
+    padding-top: 6px;
+    text-align: center;
+}
+.fr{
+    float: right;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "";
+    visibility: hidden;
+    height: 0
+  }
+  
+  .clearfix {
+    zoom: 1
+  }
+/* footer */
+.footer{
+    width: 100%;
+    height:300px;
+    background:linear-gradient(180deg,rgba(0,13,73,1) 0%,rgba(4,4,39,1) 100%);
+    box-shadow:0px -1px 20px 0px rgba(229,227,227,0.5);
+}
+.footerTitle{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.u-list__link{
+    color: #909CA8;
+}
+.small{
+    color: #ffffff;
+}
+.pt85{
+    padding-top: 60px;
+}
+.bannerBox{
+    padding-top: 256px;
+    color: #fff;
+    max-width: 1110px;
+}
+.bannerTitle{
+    font-size: 48px;
+}
+.bannerTxt{
+    font-size: 18px;
+}
+.whitepaperBtn{
+    width: 140px;
+    height: 40px;
+
+}
+.btnBg{
+   background: #364FDA;
+   border:1px solid #364FDA;
+}
+.ml10{
+    margin-left: 10px;
+}
+
+@media (max-width: 992px) {
+    .hero_text{
+        padding-top:7rem;
+    }
+    .hero_text h1{
+        font-size:2rem;
+    }
+    .hero_text h2{
+        font-size:1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    
+}
+
+
+.w-md-85{
+    width:85% !important;
+}
+
+.u-header__sub-menu-nav-link{
+    justify-content:flex-start;
+}
+
